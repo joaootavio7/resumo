@@ -40,7 +40,7 @@ let resposta: number = (teclado(`O carro custa 2 milhões vai querer pagar à vi
 if (resposta == 1){
 let desconto: number = 2000000 - (2000000 * 0.15)
 console.log (`O valor com desconto é ${desconto}`)
-}else (resposta == 2)
+}else (resposta == 2) 
 let aumento: number = 2000000 + (2000000 * 0.13)
 console.log (`O valor com aumento é ${aumento}`)
 }

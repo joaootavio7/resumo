@@ -21,8 +21,8 @@ do{
     altura = parseInt(teclado(`Digite a altura da pessoa ${n_pess+1}: `));
 
     if(idade> 18){
-      total_pess_atend_condicao++;
-      altura++
+    total_pess_atend_condicao++;
+    altura++
 
 }
     

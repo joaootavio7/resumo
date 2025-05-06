@@ -8,8 +8,8 @@ let teclado = require(`prompt-sync`)();
 let valor= parseInt(teclado(`Digite o valor: `))
 
 
-if (valor >= 1 && valor <= 10){
-console.log (`O valor que você digitou está entre 1 e 10`)
+if (valor >=0 && valor <= 10){
+console.log (`O valor que você digitou está entre 0 e 10`)
 }
 
 else if (valor >= 10 && valor <= 20){

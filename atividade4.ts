@@ -6,24 +6,22 @@ Nome aluno:João Otávio Petri da Silva
 */
 
 let teclado = require(`prompt-sync`)();
+let cond: string = ``;
+let cont: number = 0;
+let soma: number = 0;
+let n1: number = 0;
 
 console.log(`-------------------------------------`)
 console.log(`-----       MÉDIA SEQUÊNCIA     -----`)
 console.log(`-------------------------------------`)
 
-let pergunta1= (teclado(`Você quer começar a sequência S/N?: `))
-
 do{
-    if(pergunta1 == `S`){
-    let n1:number = parseInt(teclado(`Digite o primeiro número: `))
-    let n2:number = parseInt(teclado(`Digite o segundo número: `))
-    let media: number = (n1 + n2) /2
-    console.log(`A média é ${media}`)
-     
-   else(pergunta1 == `N`){
-   console.log (`Fim de programa`)
-}
 
-}while (n1 == 0 && n2 == 0){
-console.log (`Fim de programa`)
-}
+    n1=parseInt(teclado(`Digite o número a ser calculado: `));
+    soma =+ n1; 
+    cont++;
+    
+    cond=teclado(`Digite ENTER para continuar ou qualquer coisa para sair:`);
+}while (cond == ``);
+
+console.log(`A média dos números é ${soma/cont}`);

@@ -31,7 +31,7 @@ do{
     else{
 n_pess++;
 }
-}while(n_pess < 50)
+}while(n_pess == 50)
     console.log(`o total de pessoas é´${n_pess}`);
     let media_homens: number = idade_homens/total_de_homens
     console.log(`A média de idade dos homens é´${media_homens}`);
