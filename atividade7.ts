@@ -5,16 +5,16 @@ Nome aluno:João Otávio Petri da Silva
 */
 
 let teclado = require(`prompt-sync`)();
-console.log (`~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~`)
-console.log (`~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~`)
-console.log (`~~~~    SOMA DOS VALORES   ~~~~~`)
-console.log (`~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~`)
-console.log (`~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~`)
+console.log(`~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~`)
+console.log(`~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~`)
+console.log(`~~~~    SOMA DOS VALORES   ~~~~~`)
+console.log(`~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~`)
+console.log(`~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~`)
 
 
 let contador: number = 0;
-while(contador <= 100){
-let numero: number = parseFloat(teclado(`Dígite o número: `))
-contador+=numero
+while (contador <= 100) {
+    let numero: number = parseFloat(teclado(`Dígite o número: `))
+    contador += numero
 }
-console.log (`A sua soma passou do 100`)
+console.log(`A sua soma passou do 100`)

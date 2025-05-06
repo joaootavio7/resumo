@@ -1,3 +1,0 @@
-# resumo
-# resumobimestre
-# resumobimestre

@@ -15,13 +15,13 @@ console.log(`-------------------------------------`)
 console.log(`-----       MÉDIA SEQUÊNCIA     -----`)
 console.log(`-------------------------------------`)
 
-do{
+do {
 
-    n1=parseInt(teclado(`Digite o número a ser calculado: `));
-    soma =+ n1; 
+    n1 = parseInt(teclado(`Digite o número a ser calculado: `));
+    soma = + n1;
     cont++;
-    
-    cond=teclado(`Digite ENTER para continuar ou qualquer coisa para sair:`);
-}while (cond == ``);
 
-console.log(`A média dos números é ${soma/cont}`);
+    cond = teclado(`Digite ENTER para continuar ou qualquer coisa para sair:`);
+} while (cond == ``);
+
+console.log(`A média dos números é ${soma / cont}`);
